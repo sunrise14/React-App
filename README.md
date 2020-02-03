@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Used given sample data with JSON Server (a Node Module that we can use to create demo rest json webservice).
+Used  sample data with JSON Server (a Node Module that we can use to create demo rest json webservice).
 
 To run this application:
 Navigate to the application path
