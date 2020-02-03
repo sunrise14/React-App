@@ -1,6 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Used  sample data with JSON Server (a Node Module that we can use to create demo rest json webservice).
+Used Webpack, babel, axios, react router
+Used mock data with JSON Server (a Node Module that we can use to create demo rest json webservice).
+
+Used React router, axios
 
 To run this application:
 Navigate to the application path
