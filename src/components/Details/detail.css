@@ -1,0 +1,15 @@
+.specifics{
+    margin: auto;
+    width: 400px;
+}
+
+@media screen and (max-width:400px){
+h2{
+font-size: 18px;
+text-align: left;
+}
+.specifics{
+    margin: auto;
+    width: 200px;
+}
+}

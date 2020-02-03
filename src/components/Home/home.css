@@ -1,0 +1,52 @@
+.listHeader{
+    margin: 0 auto;
+    width: 500px;
+}
+thead{
+    font-weight: bold;
+    text-align:center;
+}
+.mag{
+    text-align: center;
+}
+
+.title{
+    text-align: center;
+}
+a:hover{
+    color:red;
+}
+
+@media screen and (max-width:527px){/* if it is less than 527 px apply these styles */
+    .listHeader{
+        margin: 0 auto;
+        width: 280px;
+    }
+    tbody, tr, td{
+        display:block;
+    }
+    thead{
+        display:none;
+    }
+    td{
+        text-align:left;
+    }
+    tr:nth-of-type(odd){
+        background:rgb(250, 245, 245);
+    }
+    tr:nth-of-type(even){
+        background:rgb(233, 226, 226);
+    }
+    td:before{
+        text-align: left;
+        font-weight: bold;
+        content:attr(data-table);
+    }
+    h2{
+        text-align: left;
+        font-size:18px;
+    }
+    .mag{
+        text-align:left;
+    }
+}
